@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__logo{
+    margin-left: 55px;
+}
+
+.navbar-ul{
+    display:flex;
+    gap: 88px;
+}
+
+.navbar__sign-button{
+    margin-right: 55px;
+}
