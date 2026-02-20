@@ -1,0 +1,70 @@
+.gamedev{
+    display: flex;
+
+    color:white;
+}
+
+.information{
+    display:flex;
+    flex-direction:column;
+
+    margin-left: 136px;
+
+    width: 527px;
+    height: 512px;
+}
+
+.gamedev__subtitle{
+    color: #E87D0E;
+
+    font-size: 20px;
+}
+
+.gamedev__title{
+    margin-top: 17px;
+    margin-bottom: 26px;
+
+    font-size:50px;
+}
+
+.gamedev__description{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.gamedev__button{
+    background: linear-gradient(to right, #fa8305, #fb9e3c);
+    color:white;
+
+    width: 195px;
+    height: 53px;
+
+    border:none;
+    border-radius: 40px;
+
+}
+
+
+.gamedev__image1, .gamedev__image2,
+.gamedev__image3, .gamedev__image4{
+    position: absolute;
+}
+
+.gamedev__image1{
+    top:149px;
+    right: 200px;
+}
+
+.gamedev__image2{
+    top:149px;
+}
+
+.gamedev__image3{
+    top:400px;
+    right:750px;
+}
+
+.gamedev__image4{
+    top:0px;
+    right:75px;
+}

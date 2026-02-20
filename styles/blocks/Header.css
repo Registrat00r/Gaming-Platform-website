@@ -15,5 +15,23 @@
 }
 
 .navbar__sign-button{
+    color: white;
+    background-color: #Fa9021;
+    
     margin-right: 55px;
+    width: 131.77px;
+    height: 41.34px;
+
+    border-radius: 6px;
+    border:none;
+}
+
+.navbar__logo{
+    color: white;
+    font-size: 29px;
+}
+
+.navbar-li{
+    color:white;
+    font-size: 24.2px;
 }
