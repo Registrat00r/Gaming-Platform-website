@@ -1,0 +1,43 @@
+.trending{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.trending_information{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 57px;
+}
+
+.trending__title{
+    font-size: 31px;
+}
+
+.trending_button{
+    width: 139px;
+    height: 57px;
+    
+    font-size: 20px;
+
+    color: #ffffff;
+    background-color: #ffffff22;
+
+    border: none;
+    border-radius: 10px;
+}
+
+
+.trending__cards{
+    display: flex;
+    justify-content: center;
+
+    gap: 49px;
+}
+
+.trending__card-information{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}

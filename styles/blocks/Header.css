@@ -5,10 +5,6 @@
     justify-content: space-between;
 }
 
-.navbar__logo{
-    margin-left: 55px;
-}
-
 .navbar-ul{
     display:flex;
     gap: 88px;
@@ -27,11 +23,9 @@
 }
 
 .navbar__logo{
-    color: white;
     font-size: 29px;
 }
 
 .navbar-li{
-    color:white;
     font-size: 24.2px;
 }
