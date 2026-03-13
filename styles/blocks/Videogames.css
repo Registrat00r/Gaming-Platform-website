@@ -1,0 +1,32 @@
+.videogames{
+    display: flex;
+    align-items: center;
+}
+
+.videogames-img{
+    width: 1567px;
+    
+    position: absolute;
+    z-index: -2;
+}
+
+.square__translucent{
+    width: 1567px;
+    height: 881px;
+
+    background: linear-gradient(#00000075, #00000064);
+    
+    position: absolute;
+    z-index: -1;
+
+}
+
+.videogames__information{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 93px;
+    width: 1045px;
+    height: 996px;
+
+}

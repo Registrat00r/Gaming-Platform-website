@@ -2,6 +2,7 @@
     display: flex;
 
     margin-top: 112px;
+    margin-left: 147px;
 }
 
 .gamedev-information{
@@ -70,5 +71,10 @@
     z-index: -1;
     
     left: 70px;
-    top: -200px;
+    top: -215px;
+}
+
+.information{
+    width: 527px;
+    height: 512px;
 }
