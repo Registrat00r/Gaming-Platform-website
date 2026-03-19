@@ -1,18 +1,21 @@
 .review{
     display: flex;
     flex-direction: column;
+
+    margin-left: 147px;
 }
 
 .review__subtitle{
     font-size: 35px;
     line-height: 187.5%;
 
-    width: 826px;
-    height: 132px;
-
     margin-bottom: 67px;
 
-    transform: translateX(50%);
+}
+
+.review__block-subtitle{
+    display: flex;
+    justify-content: center;
 }
 
 .review__block{
@@ -32,17 +35,22 @@
     line-height: 187.5%;
 }
 
+.review__img-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 157px;
+}
+
 .review__img{
     width: 1146px;
     height: 462px;
-    transform: translateX(20%);
-
-    margin-bottom: 157px;
 }
 
 .review__img-addition{
     position: absolute;
     width: 196px;
     height:154px;
-    transform: translate(600%,250%);
+    transform: translate(480%,250%);
+    z-index: -2;
 }

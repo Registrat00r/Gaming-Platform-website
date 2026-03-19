@@ -1,32 +1,79 @@
-.videogames{
+.videogames {
     display: flex;
-    align-items: center;
+    justify-content: center;
+
+    margin-left: 147px;
+
+    height: 885px;
+    background-image: url("../../img/background_rocks.jpg");
 }
 
-.videogames-img{
-    width: 1567px;
-    
+.square__translucent {
+    width: 1355px;
+    height: 885px;
+
     position: absolute;
-    z-index: -2;
+
+    background: linear-gradient(#00000054, #00000065);
+    backdrop-filter: blur(4px);
 }
 
-.square__translucent{
-    width: 1567px;
-    height: 881px;
-
-    background: linear-gradient(#00000075, #00000064);
-    
-    position: absolute;
-    z-index: -1;
-
-}
-
-.videogames__information{
+.videogames__information {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     margin-top: 93px;
     width: 1045px;
-    height: 996px;
 
+    z-index: 1;
+}
+
+.videogames__title {
+    font-size: 30px;
+    line-height: 188%;
+
+    text-align: center;
+}
+
+.videogames__description {
+    font-size: 16px;
+    line-height: 188%;
+    text-align: center;
+}
+
+
+.videogames__service {
+    display: grid;
+    grid-template-columns: repeat(4, 185px);
+    gap: 100px;
+    margin-top: 100px;
+
+}
+
+.videogames__service-two {
+    display: grid;
+    grid-template-columns: repeat(2, 185px);
+    gap: 100px;
+    margin-top: 67px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-title {
+    margin: 30px 0 21px 0;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 188%;
+}
+
+.service-arrow {
+    color: #DC7000;
+
+    font-size: 16px;
 }

@@ -8,6 +8,8 @@
 .navbar-ul{
     display:flex;
     gap: 88px;
+
+    align-items: center;
 }
 
 .navbar__sign-button{
