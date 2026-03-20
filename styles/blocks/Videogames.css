@@ -4,12 +4,13 @@
 
     margin-left: 147px;
 
+    width: 1440px;
     height: 885px;
     background-image: url("../../img/background_rocks.jpg");
 }
 
 .square__translucent {
-    width: 1355px;
+    width: 1440px;
     height: 885px;
 
     position: absolute;
