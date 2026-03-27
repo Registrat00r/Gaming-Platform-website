@@ -1,10 +1,11 @@
 .gamedev{
-    display: flex;
+    font-family: 'Poppins', sans-serif;
 
+    display: flex;
     margin-top: 112px;
 }
 
-.gamedev-information{
+.gamedev__information{
     display:flex;
     flex-direction:column;
 
@@ -17,6 +18,7 @@
     color: #E87D0E;
 
     font-size: 20px;
+    font-weight: 700;
 }
 
 .gamedev__title{
@@ -24,11 +26,16 @@
     margin-bottom: 26px;
 
     font-size:50px;
+    line-height: 187.5%;
+    font-weight: 700;
 }
 
 .gamedev__description{
-    font-size: 16px;
     margin-bottom: 50px;
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 200%;
 }
 
 .gamedev__button{
@@ -42,6 +49,7 @@
     border-radius: 40px;
 
     font-size: 16px;
+    font-weight: 500;
 }
 
 

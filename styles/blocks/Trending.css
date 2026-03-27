@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
 
+    font-family: 'Rubik', sans-serif;
 }
 
-
-.trending_information{
+.trending__information{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +14,8 @@
 
 .trending__title{
     font-size: 31px;
+    font-weight: 700;
+    font-width: 187.5%;
 }
 
 .trending_button{
@@ -21,6 +23,7 @@
     height: 57px;
     
     font-size: 20px;
+    font-weight: 500;
 
     color: #ffffff;
     background-color: #ffffff22;
@@ -42,4 +45,10 @@
     display: flex;
     justify-content: center;
     gap: 9px;
+}
+
+.trending__card-block-desription{
+    font-size: 22px;
+    font-width: 187.5%;
+    font-weight: 500;
 }

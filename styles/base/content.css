@@ -1,8 +1,12 @@
-.container{
-    
+.container{    
     color: #ffffff;
     background-color: #000000;
 
+    margin: 0;
     margin-left: 147px;
     margin-right: 147px;
+}
+
+button, li{
+    cursor: pointer;
 }

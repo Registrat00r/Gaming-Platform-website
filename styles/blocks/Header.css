@@ -1,3 +1,7 @@
+.header{
+    font-family: 'Poppins', sans-serif;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -16,20 +20,24 @@
     color: white;
     background-color: #Fa9021;
     
-    margin-right: 55px;
-    
+    font-size: 13px;
+    font-weight: 400;
+
     width: 131.77px;
     height: 41.34px;
+    margin-right: 55px;
 
     border-radius: 6px;
     border:none;
+
 }
 
 .navbar__logo{
     font-size: 29px;
+    font-weight: 800;
 }
 
 .navbar-li{
-    font-size: 24.2px;
+    font-size: 16px;
     list-style: none;
 }
