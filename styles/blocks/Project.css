@@ -1,7 +1,8 @@
 .project{
     display: flex;
     justyfy-content: center;
-    margin-left: 147px;
+
+    margin-top: 141px;
 }
 
 .project__information{

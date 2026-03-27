@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
 
-    margin-left: 147px;
 }
 
 .review__subtitle{
@@ -37,11 +36,6 @@
 
 .review__img-block{
     margin-bottom: 157px;
-}
-
-.review__img{
-    width: 1146px;
-    height: 462px;
 }
 
 .review__img-addition{

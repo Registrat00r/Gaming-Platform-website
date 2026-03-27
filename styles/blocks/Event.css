@@ -1,0 +1,97 @@
+.event {
+    margin-top: 105px;
+}
+
+.event__information {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.event__information-title {
+    font-size: 30px;
+    line-height: 187.5%;
+}
+
+.event__information-title {
+    font-size: 16px;
+    line-height: 187.5%;
+}
+
+.event__information-block {
+    display: flex;
+    align-items: center;
+
+    width: 1170px;
+    height: 189px;
+
+    background: #1C140F;
+
+    border-radius: 15px;
+}
+
+.event__information-email {
+    display: flex;
+    flex-direction: column;
+
+    width: 636px;
+    height: 107px;
+
+    padding: 0 56px;
+    gap: 10px;
+}
+
+.event__information__email-title {
+    font-size: 30px;
+    line-height: 187.5%;
+    margin: 0;
+}
+
+.event__information__email-discription {
+    font-size: 16px;
+    line-height: 187.5%;
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    
+    width: 385.68px;
+    height: 48px;
+    
+    background: #ffffff;
+    
+    border-radius: 8px;
+    padding: 5.5px; 
+}
+
+.form-input {
+    flex-grow: 1;
+    
+    border: none;
+    outline: none;
+    
+    padding: 0 10px;
+    font-size: 14px;
+    
+}
+
+.form-input ::placeholder{
+    font-size: 13px;
+    color: #898989;
+}
+
+.form-button {
+    width: 105px;
+    height: 37px;
+    color: #ffffff;
+    background: #DC7000;
+    border: none;
+    border-radius: 6px; /* Скругление углов кнопки */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+

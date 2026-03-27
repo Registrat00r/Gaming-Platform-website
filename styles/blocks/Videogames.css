@@ -2,15 +2,14 @@
     display: flex;
     justify-content: center;
 
-    margin-left: 147px;
 
-    width: 1440px;
+    width: 1300px;
     height: 885px;
     background-image: url("../../img/background_rocks.jpg");
 }
 
 .square__translucent {
-    width: 1440px;
+    width: 1300px;
     height: 885px;
 
     position: absolute;

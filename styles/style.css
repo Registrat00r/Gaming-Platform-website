@@ -1,8 +1,12 @@
+/* Базовый */
 @import url(base/content.css);
 
+/* Блоки */
 @import url(blocks/Header.css);
 @import url(blocks/Gamedev.css);
 @import url(blocks/Trending.css);
 @import url(blocks/Review.css);
 @import url(blocks/Videogames.css);
 @import url(blocks/Project.css);
+@import url(blocks/Event.css);
+@import url(blocks/Footer.css);
