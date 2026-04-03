@@ -1,5 +1,4 @@
 .videogames {
-    width: 1300px;
     height: 885px;
 
     font-family: 'Poppins', sans-serif;
@@ -11,7 +10,7 @@
 }
 
 .square__translucent {
-    width: 1300px;
+    width: -webkit-fill-available;
     height: 885px;
 
     position: absolute;
@@ -25,7 +24,6 @@
     flex-direction: column;
     align-items: center;
 
-    margin-top: 93px;
     width: 1045px;
 
     z-index: 1;
@@ -47,6 +45,12 @@
     text-align: center;
 }
 
+.videogames__service-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 .videogames__service {
     display: grid;

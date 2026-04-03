@@ -42,6 +42,9 @@
 }
 
 .review__img-block{
+    display: flex;
+    justify-content: center;
+
     margin-bottom: 157px;
 }
 
@@ -49,6 +52,7 @@
     position: absolute;
     width: 196px;
     height:154px;
-    transform: translate(480%,250%);
+
+    transform: translate(200%, 30%)
     z-index: -2;
 }
