@@ -53,6 +53,112 @@
     width: 196px;
     height:154px;
 
-    transform: translate(200%, 30%)
+    transform: translate(200%, -30%);
     z-index: -2;
+}
+
+@media (max-width: 1400px) {
+    .review__subtitle {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    .review__block {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .review__title {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+    .review__description {
+        font-size: 15px;
+    }
+    .review__img-block {
+        margin-bottom: 120px;
+    }
+    .review__img {
+        max-width: 90%;
+        height: auto;
+    }
+    .review__img-addition {
+        transform: translate(150%, -25%);
+    }
+}
+
+@media (max-width: 1024px) {
+    .review {
+        padding: 0 32px;
+    }
+    .review__subtitle {
+        font-size: 28px;
+        line-height: 1.6;
+        margin-bottom: 40px;
+    }
+    .review__block {
+        max-width: 100%;
+    }
+    .review__title {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .review__description {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .review__img-block {
+        margin-bottom: 80px;
+    }
+    .review__img-addition {
+        width: 160px;
+        transform: translate(100%, -20%);
+    }
+}
+
+@media (max-width: 768px) {
+    .review__subtitle {
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+    .review__block {
+        margin-bottom: 32px;
+    }
+    .review__title {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .review__description {
+        font-size: 14px;
+    }
+    .review__img-block {
+        margin-bottom: 60px;
+    }
+    .review__img-addition {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .review {
+        padding: 0 20px;
+    }
+    .review__subtitle {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    .review__block {
+        margin-bottom: 24px;
+    }
+    .review__title {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .review__description {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .review__img-block {
+        margin-bottom: 40px;
+    }
 }

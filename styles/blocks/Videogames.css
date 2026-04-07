@@ -87,3 +87,115 @@
     font-size: 16px;
     font-weight: 800;
 }
+
+@media (max-width: 1400px) {
+    .videogames {
+        height: auto;
+        min-height: 800px;
+        padding: 60px 20px;
+    }
+    .videogames__information {
+        width: 90%;
+        max-width: 900px;
+    }
+    .videogames__service {
+        gap: 60px;
+        margin-top: 70px;
+    }
+    .videogames__service-two {
+        gap: 60px;
+        margin-top: 50px;
+    }
+    .videogames__title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .videogames {
+        min-height: 700px;
+        padding: 50px 16px;
+    }
+    .square__translucent{
+        width: 100%;
+        height: 120%;
+    }
+    .videogames__information {
+        width: 100%;
+    }
+    .videogames__service {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin-top: 50px;
+    }
+    .videogames__service-two {
+        gap: 40px;
+        margin-top: 40px;
+    }
+    .videogames__title {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+    .videogames__description {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .service-title {
+        margin: 24px 0 18px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .videogames {
+        min-height: auto;
+        padding: 40px 12px;
+    }
+    .videogames__service {
+        gap: 32px;
+        margin-top: 40px;
+    }
+    .videogames__service-two {
+        gap: 32px;
+        margin-top: 32px;
+    }
+    .videogames__title {
+        font-size: 24px;
+    }
+    .videogames__description {
+        font-size: 14px;
+    }
+    .service-title {
+        margin: 20px 0 16px 0;
+        font-size: 15px;
+    }
+    .service-arrow {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .videogames {
+        padding: 30px 10px;
+    }
+    .videogames__service,
+    .videogames__service-two {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-top: 24px;
+    }
+    .videogames__title {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+    .videogames__description {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .service-title {
+        margin: 16px 0 12px 0;
+        font-size: 14px;
+    }
+    .service-arrow {
+        font-size: 14px;
+    }
+}

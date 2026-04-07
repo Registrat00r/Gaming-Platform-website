@@ -49,3 +49,90 @@
     border: none;
     border-radius: 10px;
 }
+
+@media (max-width: 1400px) {
+    .project {
+        margin-top: 100px;
+        padding: 0 40px;
+    }
+    .project__grid-img {
+        width: 100%;
+        max-width: 1000px;
+    }
+    .project__title {
+        font-size: 28px;
+    }
+    .project__discription {
+        font-size: 14px; /* добавлено px, в оригинале пропущено */
+    }
+}
+
+@media (max-width: 1024px) {
+    .project {
+        margin-top: 80px;
+        padding: 0 32px;
+    }
+    .project__grid-img {
+        max-width: 850px;
+        gap: 20px;
+    }
+    .project__title {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+    .project__discription {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    .project__sell {
+        margin-top: 50px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project {
+        margin-top: 60px;
+        padding: 0 24px;
+    }
+    .project__grid-img {
+        max-width: 100%;
+        gap: 16px;
+    }
+    .project__title {
+        font-size: 24px;
+    }
+    .project__discription {
+        font-size: 13px;
+    }
+    .project__sell {
+        height: 50px;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .project {
+        margin-top: 40px;
+        padding: 0 16px;
+    }
+    .project__grid-img {
+        gap: 12px;
+    }
+    .project__title {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+    .project__discription {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .project__sell {
+        height: 46px;
+        width: 100%;
+        max-width: 260px;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+}

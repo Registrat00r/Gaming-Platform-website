@@ -10,3 +10,13 @@
 button, li{
     cursor: pointer;
 }
+
+@media (max-width: 1400px) {
+    .container{
+        
+    }
+}
+
+@media (min-width: 600px) {
+    
+}
