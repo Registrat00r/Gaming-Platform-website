@@ -49,6 +49,9 @@
     font-weight: 500;
 }
 
+.gamedev__button:hover {
+    background: #e1811d;
+}
 
 .gamedev__image1, .gamedev__image2,
 .gamedev__image3{

@@ -129,6 +129,10 @@
     flex-shrink: 0;
 }
 
+.form-button:hover {
+    background: #c66400;
+}
+
 @media (max-width: 1024px) {
     .event__information-block {
         padding: 30px 40px;

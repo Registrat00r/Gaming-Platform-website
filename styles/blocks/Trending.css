@@ -26,12 +26,15 @@
     font-weight: 500;
 
     color: #ffffff;
-    background-color: #ffffff22;
+    background: #ffffff22;
 
     border: none;
     border-radius: 10px;
 }
 
+.trending_button:hover {
+    background: #51515151;
+}
 
 .trending__cards{
     display: flex;

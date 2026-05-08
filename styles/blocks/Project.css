@@ -34,7 +34,7 @@
     gap: 27px;
 }
 
-.project__sell{
+.project__sell-btn {
     height: 57px;
     margin-top: 72px;
 
@@ -50,6 +50,10 @@
     border-radius: 10px;
 }
 
+.project__sell-btn:hover {
+    background: #5b5b5b5b;
+}
+
 @media (max-width: 1400px) {
     .project {
         margin-top: 100px;
@@ -63,7 +67,7 @@
         font-size: 28px;
     }
     .project__discription {
-        font-size: 14px; /* добавлено px, в оригинале пропущено */
+        font-size: 14px;
     }
 }
 
