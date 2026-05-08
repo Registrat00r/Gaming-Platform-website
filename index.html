@@ -249,6 +249,36 @@
 			<p class="footer__copyright-text">Copyright ® 2021 Lorem All rights Rcerved</p>
 		</div>
 	</footer>
+
+	<form action="\" class="form-sign">
+		<legend class="form-legend">Войдите в профиль</legend>
+		<label class="form-label" for="login">Логин:</label>
+		<input type="text" name="login-text" class="form__login-sign" placeholder="Логин" required minlength="5"
+			maxlength="13">
+		<label class="form-label" for="pass">Пароль:</label>
+		<input type="password" name="password-text" class="form__pass-sign" placeholder="Пароль" required minlength="8"
+			maxlength="13">
+		<label class="form-label" for="pass-repeat">Повторите пароль:</label>
+		<input type="password" name="repeat-password-text" class="form__pass-sign form__pass__repeat-sign"
+			placeholder=" Повторите пароль" required minlength="8" maxlength="13">
+		<input type="submit" value="Ввойти" name="btn-submit" class="form__btn-sign">
+	</form>
 </body>
+
+<!-- Открываем форму «Войдите в профиль» по клику на «Войти»
+Открываем вспомогательные формы -->
+
+<!-- Взаимодействие между popup-окнами. Валидация и хранение данных форм:
+Добавить функциональность для popup окон (всплывающих форм):
+переключение между окнами
+очистка полей формы
+закрытие окна -->
+
+<!-- существование логина
+количество символов пароля
+повторение пароля (их одинаковость)
+существование пары логин/пароль -->
+
+
 
 </html>
