@@ -12,4 +12,5 @@
 @import url(blocks/Event.css);
 @import url(blocks/Footer.css);
 
-@import url(blocks/form-sign.css);
+/* Форма */
+@import url(blocks/Forms.css);

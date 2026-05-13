@@ -53,6 +53,14 @@
 
 .trending__card-block-desription{
     font-size: 22px;
-    font-width: 187.5%;
+    line-height: 187.5%;
     font-weight: 500;
+}
+
+.trending__card-block-like, .trending__card-block-desription {
+    cursor: pointer;
+}
+
+.trending__card-information.active .trending__card-block-like {
+    filter: drop-shadow(0 0 5px #ff8c00) brightness(1.2);
 }
