@@ -62,5 +62,5 @@
 }
 
 .trending__card-information.active .trending__card-block-like {
-    filter: drop-shadow(0 0 5px #ff8c00) brightness(1.2);
+    filter: drop-shadow(0 0 5px #ff6600) drop-shadow(0 0 15px #ff6600) drop-shadow(0 0 30px #ff6600);
 }

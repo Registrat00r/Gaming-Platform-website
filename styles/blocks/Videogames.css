@@ -92,7 +92,6 @@
     .videogames {
         height: auto;
         min-height: 800px;
-        padding: 60px 20px;
     }
     .videogames__information {
         width: 90%;
@@ -114,7 +113,6 @@
 @media (max-width: 1024px) {
     .videogames {
         min-height: 700px;
-        padding: 50px 16px;
     }
     .square__translucent{
         width: 100%;
@@ -148,7 +146,6 @@
 @media (max-width: 768px) {
     .videogames {
         min-height: auto;
-        padding: 40px 12px;
     }
     .videogames__service {
         gap: 32px;
@@ -174,9 +171,6 @@
 }
 
 @media (max-width: 600px) {
-    .videogames {
-        padding: 30px 10px;
-    }
     .videogames__service,
     .videogames__service-two {
         grid-template-columns: 1fr;

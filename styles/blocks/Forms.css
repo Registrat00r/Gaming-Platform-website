@@ -5,13 +5,13 @@
     justify-content: center;
 
     position: fixed;
-    
+
     top: 0;
     left: 0;
 
     width: 100%;
     height: 100%;
-    
+
     background: #ffffff70;
 }
 
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    
+
     padding: 35px;
 
     background: #000000;
@@ -31,7 +31,8 @@
     align-items: center;
 }
 
-.form-legend, .form-label{
+.form-legend,
+.form-label {
     color: #ffffff;
 }
 
@@ -42,34 +43,41 @@
 .form-legend {
 
     font-size: 30px;
-    
+
     padding: 30px 0;
 }
 
 .form-label {
     font-size: 18px;
-    
+
     padding: 10px 0;
 }
 
-.form__login, .form__pass, .form__email {
+.form__login,
+.form__pass,
+.form__email {
     font-size: 18px;
 
     height: 40px;
 }
 
 .form__close-btn {
-  font-size: 45px;
-  font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
 
-  cursor: pointer;
+    font-size: 45px;
+    font-weight: 600;
+
+    cursor: pointer;
 }
 
-.form__btn{
+.form__btn {
     font-size: 18px;
-    background: #99ff99;
+    color: #ffffff;
+    background: #fa9021;
 
     border: none;
+    border-radius: 10px;
 
     padding: 10px 0;
     height: 40px;
@@ -81,7 +89,7 @@
     margin: 10px 0 0 0;
 
     cursor: pointer;
-    color:dodgerblue;
+    color: dodgerblue;
 }
 
 .form-reg {
@@ -91,12 +99,12 @@
     justify-content: center;
 
     position: fixed;
-    
+
     top: 0;
     left: 0;
 
     width: 100%;
     height: 100%;
-    
+
     background: #ffffff70;
 }
