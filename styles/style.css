@@ -11,3 +11,6 @@
 @import url(blocks/Project.css);
 @import url(blocks/Event.css);
 @import url(blocks/Footer.css);
+
+/* Форма */
+@import url(blocks/Forms.css);

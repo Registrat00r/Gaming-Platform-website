@@ -1,0 +1,125 @@
+.form-sign {
+    font-family: 'Rubik', sans-serif;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: #ffffff70;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    padding: 35px;
+
+    border-radius: 10px;
+
+    background: #000000;
+}
+
+.form__header {
+    display: flex;
+    align-items: center;
+}
+
+.form-legend,
+.form-label {
+    color: #ffffff;
+}
+
+.login-text {
+    width: 15px;
+}
+
+.form-legend {
+
+    font-size: 30px;
+    font-weight: 700;
+    
+    padding: 0 0 30px 0;
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: 500;
+
+    padding: 10px;
+}
+
+.form__login,
+.form__pass,
+.form__email {
+    font-size: 18px;
+    font-weight: 500;
+
+    height: 40px;
+}
+
+.form__close-btn {
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: 45px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.form__btn {
+    font-size: 18px;
+    font-weight: 500;
+
+    color: #ffffff;
+    background: #fa9021;
+
+    border: none;
+    border-radius: 10px;
+
+    margin-top: 10px;
+    padding: 10px 0;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.form__switch-link {
+    font-size: 16px;
+    font-weight: 500;
+
+    margin: 30px 0 0 0;
+
+    cursor: pointer;
+    color: darkgoldenrod;
+}
+
+.form-reg {
+    font-family: 'Rubik', sans-serif;
+    
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: #ffffff70;
+}

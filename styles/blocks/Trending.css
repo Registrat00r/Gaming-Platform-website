@@ -26,12 +26,15 @@
     font-weight: 500;
 
     color: #ffffff;
-    background-color: #ffffff22;
+    background: #ffffff22;
 
     border: none;
     border-radius: 10px;
 }
 
+.trending_button:hover {
+    background: #51515151;
+}
 
 .trending__cards{
     display: flex;
@@ -50,6 +53,14 @@
 
 .trending__card-block-desription{
     font-size: 22px;
-    font-width: 187.5%;
+    line-height: 187.5%;
     font-weight: 500;
+}
+
+.trending__card-block-like, .trending__card-block-desription {
+    cursor: pointer;
+}
+
+.trending__card-information.active .trending__card-block-like {
+    filter: drop-shadow(0 0 5px #ff6600) drop-shadow(0 0 15px #ff6600) drop-shadow(0 0 30px #ff6600);
 }
